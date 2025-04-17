@@ -1,3 +1,7 @@
+# Description
+
+Webpage for Amiya Ingram for King County Executive 2025 Campaign
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
