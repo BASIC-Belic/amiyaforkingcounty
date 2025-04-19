@@ -3,9 +3,8 @@ import './TopMenu.css';
 import Logo from './Logo';
 
 const TopMenu = () => { 
-  return (
-    <div className="top-menu-wrapper">
-      <div className="top-menu">
+  return (  
+    <div className="top-menu">
       <div className="logo"><Logo /></div>
       <div className="menu-list">
         <a href="#home">Home</a>
@@ -17,8 +16,7 @@ const TopMenu = () => {
         <a href="#galley">Gallery</a>
         <a href="#contact">Contact</a>
       </div>
-      </div>
-    </div>
+    </div>  
   );
 };
 
