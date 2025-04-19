@@ -1,10 +1,10 @@
 import React from 'react';
-import TopMenu from './components/TopMenu';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
     <div className="App">
-      <TopMenu />
+      <HomePage />
     </div>
   );
 }

@@ -1,17 +1,13 @@
 import React from 'react';
 import './TopMenu.css';
-import logo from './assets/images/logo.jpg';
+import Logo from './Logo';
 
 const TopMenu = () => { 
   return (
     <div className="top-menu-wrapper">
       <div className="top-menu">
       <div className="logo">
-        <img src={logo} className="logo-image" alt="King County Counts Us In!" 
-        elementtiming="nbf-header-logo-desktop" fetchpriority="high" 
-        loading="eager" decoding="async" data-loader="raw"
-        width='25%' height='auto' display='block'
-        />
+        <Logo />
       </div>
       <div className="menu-list">
         <a href="#home">Home</a>
