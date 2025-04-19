@@ -6,9 +6,7 @@ const TopMenu = () => {
   return (
     <div className="top-menu-wrapper">
       <div className="top-menu">
-      <div className="logo">
-        <Logo />
-      </div>
+      <div className="logo"><Logo /></div>
       <div className="menu-list">
         <a href="#home">Home</a>
         <a href="#donate">Donate</a>

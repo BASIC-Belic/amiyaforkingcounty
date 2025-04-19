@@ -1,7 +1,11 @@
 ````css
 .top-menu-wrapper {
   background-color: rgba(0, 0, 0, 0); /* transparent */
-  display: block;
+  display: block; 
+  /* display: flex;
+  flex-wrap: nowrap;
+  justify-content: normal; 
+  align-items: normal; */
   position: relative;
   top: 0px;
   left: 0px;
@@ -23,42 +27,36 @@
 
 .top-menu {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-direction: row;
     background-color: hsla(1, 100%, 44%, 1);
     padding: 10px;
     position: relative;  
-    /* font-family: 'Poppins', sans-serif; */
 }
 
 .menu-list {
   list-style: none;
   display: inline-flex; 
   justify-content: flex-end space-around;
-  /* margin: 0;
-  padding: 0; */
+  flex-wrap: wrap; 
 }
 
-.menu-list li a {
+.menu-list a {
   color: white;
   text-decoration: none;
   padding: 10px 20px;
 }
 
-.menu-list li a:hover {
+.menu-list a:hover {
   background-color: #555;
   border-radius: 5px;
 }
 
 .logo {
-    /* display: flex;
+    display: flex;
     align-items: center;
-    margin-right: 10px; */
-    display: inline-block;
-    width: fit-content;
-    align-items: center;
-
+    margin-right: 10px;
 }
 
 .logo img {
