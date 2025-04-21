@@ -4,6 +4,7 @@ import TopMenu from './TopMenu';
 import RedSuitImage from './assets/images/amiya+red+suit.jpg';
 import BrandImage from './assets/images/amiya+brand.jpeg';
 import PinkSuitImage from './assets/images/amiya+pink+suit.jpg';
+import Logo from './Logo';
 
 
 function HomePage() {
@@ -11,6 +12,7 @@ function HomePage() {
       <div className="HomePage">
         <TopMenu />
         <div className="home-wrapper">
+            <div className="logo"><Logo /></div>
             <div className="about-section">
                 <h1>About Amiya</h1>
                 <image src={RedSuitImage} alt="Amiya Ingram is wearing a red suit, formal white shirt, and standing in a power pose with arms crossed." />
