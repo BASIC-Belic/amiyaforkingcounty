@@ -1,13 +1,17 @@
 import React from 'react';
 import './TopMenu.css';
 import Logo from './Logo';
+// import HomePage from './HomePage';
+
 
 const TopMenu = () => { 
   return (  
     <div className="top-menu">
       <div className="logo"><Logo /></div>
       <div className="menu-list">
+        {/* <a href="#home"><HomePage /></a> */}
         <a href="#home">Home</a>
+
         <a href="#donate">Donate</a>
         <a href="#housing">Housing</a>
         <a href="#safety">Safety</a>

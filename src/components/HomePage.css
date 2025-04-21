@@ -4,3 +4,40 @@
   align-items: center;
   padding: 20px;
 }
+
+.signup-wrapper {
+  /* display: flex;
+  flex-direction:row;
+  align-items: normal; 
+  justify-content: center; */
+  display: block; 
+  padding-top: 6.76px;
+  padding-right: 0px;
+  padding-bottom: 6.76px;
+  padding-left: 0px;
+  background-color: hsla(1, 100%, 44%, 1);
+}
+
+.signup-wrapper button {
+    display: inline-block;
+    padding: 22.4px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255); /* White */
+    background-color: rgba(0, 0, 0, 0); /* Transparent */
+    border: 1px solid rgb(255, 255, 255); /* White */
+    border-radius: 0px;
+    cursor: pointer;
+  }
+
+.signup-wrapper input {
+    width: 280px;
+    padding: 22.4px 32px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 0, 0); /* Black */
+    background-color: rgb(255, 255, 255); /* White */
+    border: 1px solid rgba(0, 0, 0, 0.12); /* Light gray */
+    border-radius: 0px;
+    outline: rgb(0, 0, 0) none 0px;
+  }
